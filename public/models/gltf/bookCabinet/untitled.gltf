@@ -1,0 +1,306 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v0.9.36",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                4
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Object_3",
+            "translation" : [
+                -9.727629661560059,
+                -67.23428344726562,
+                5.382769584655762
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Object_5",
+            "translation" : [
+                0,
+                -41.55720138549805,
+                0
+            ]
+        },
+        {
+            "children" : [
+                0,
+                1
+            ],
+            "name" : "Cabinet.obj.cleaner.materialmerger.gles"
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "RootNode (model correction matrix)"
+        },
+        {
+            "children" : [
+                3
+            ],
+            "name" : "RootNode (gltf orientation matrix)",
+            "rotation" : [
+                1,
+                0,
+                0,
+                -1.3435885648505064e-07
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Sculpture",
+            "normalTexture" : {
+                "index" : 0,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 1,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Cabinet",
+            "normalTexture" : {
+                "index" : 3,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 4,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 5,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 4,
+                    "texCoord" : 0
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Mesh_2",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        },
+        {
+            "source" : 2
+        },
+        {
+            "source" : 3
+        },
+        {
+            "source" : 4
+        },
+        {
+            "source" : 5
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Sculpture_normal",
+            "uri" : "Sculpture_normal.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Sculpture_metallicRoughness",
+            "uri" : "Sculpture_metallicRoughness.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Sculpture_baseColor",
+            "uri" : "Sculpture_baseColor.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Cabinet_normal",
+            "uri" : "Cabinet_normal.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Cabinet_metallicRoughness",
+            "uri" : "Cabinet_metallicRoughness.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Cabinet_baseColor",
+            "uri" : "Cabinet_baseColor.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 3986,
+            "max" : [
+                1.3534224033355713,
+                3.6568603515625,
+                1.4517455101013184
+            ],
+            "min" : [
+                -1.5514875650405884,
+                -3.5223388671875,
+                -1.5811023712158203
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 3986,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 3986,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 19446,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 9632,
+            "max" : [
+                21.23044776916504,
+                41.48713302612305,
+                11.650381088256836
+            ],
+            "min" : [
+                -21.104427337646484,
+                -39.73612976074219,
+                -4.81119966506958
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 9632,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 9632,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 43158,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 47832,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 47832,
+            "byteOffset" : 47832
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 31888,
+            "byteOffset" : 95664
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 38892,
+            "byteOffset" : 127552
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 115584,
+            "byteOffset" : 166444
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 115584,
+            "byteOffset" : 282028
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 77056,
+            "byteOffset" : 397612
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 86316,
+            "byteOffset" : 474668
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 560984,
+            "uri" : "untitled.bin"
+        }
+    ]
+}

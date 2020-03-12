@@ -1,0 +1,297 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v0.9.36",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Vichy",
+            "rotation" : [
+                1,
+                0,
+                0,
+                -1.3435884227419592e-07
+            ],
+            "scale" : [
+                0.38468360900878906,
+                0.38468366861343384,
+                0.38468366861343384
+            ],
+            "translation" : [
+                0,
+                6.731063365936279,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "07___Default",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.7763931751251221
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Material__36",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.694100022315979,
+                    0.6744999885559082,
+                    0.6626999974250793,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.8945907354354858
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "02",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.9843000173568726,
+                    0.9843000173568726,
+                    0.9843000173568726,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.7763931751251221
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Vichy",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "vi",
+            "uri" : "vi.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 3509,
+            "max" : [
+                2.8037662506103516,
+                18.134681701660156,
+                2.803804397583008
+            ],
+            "min" : [
+                -2.7659339904785156,
+                -5.1920166015625,
+                -2.7658958435058594
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 3509,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 3509,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 16740,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 174,
+            "max" : [
+                2.2899646759033203,
+                18.070281982421875,
+                2.2901039123535156
+            ],
+            "min" : [
+                -2.2522335052490234,
+                17.90087890625,
+                -2.252096176147461
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 174,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 174,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 666,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 323,
+            "max" : [
+                1.6165657043457031,
+                -2.86712646484375,
+                1.6167030334472656
+            ],
+            "min" : [
+                -1.5788345336914062,
+                -6.1857147216796875,
+                -1.5786962509155273
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 323,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 323,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 1488,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 42108,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 42108,
+            "byteOffset" : 42108
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 28072,
+            "byteOffset" : 84216
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 33480,
+            "byteOffset" : 112288
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2088,
+            "byteOffset" : 145768
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2088,
+            "byteOffset" : 147856
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1392,
+            "byteOffset" : 149944
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1332,
+            "byteOffset" : 151336
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3876,
+            "byteOffset" : 152668
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3876,
+            "byteOffset" : 156544
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2584,
+            "byteOffset" : 160420
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2976,
+            "byteOffset" : 163004
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 165980,
+            "uri" : "vichy2.bin"
+        }
+    ]
+}
